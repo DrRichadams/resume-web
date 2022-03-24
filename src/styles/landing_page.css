@@ -78,3 +78,15 @@
 .banner_arrows:hover {
     color: rgb(1, 161, 231);
 }
+
+.education_title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0;
+    font-family: Lato, sans-serif;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 900;
+    color: #01050f;
+}

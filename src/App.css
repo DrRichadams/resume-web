@@ -3,3 +3,15 @@
     min-height: 100vh;
     position: relative;
 }
+
+@media (max-width: 1226px) {
+    .App {
+        margin: 0 100px;
+    }
+}
+
+@media (max-width: 1050px) {
+    .App {
+        margin: 0 30px;
+    }
+}
