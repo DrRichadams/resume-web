@@ -1,0 +1,80 @@
+.landind_page_container {
+    /* padding: 20px; */
+    background-color: #01050f;
+    color: #fff;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    height: 75vh;
+    border-radius: 8px; 
+    overflow: hidden;
+}
+
+.banner_left {
+    padding: 20px 50px;
+    padding-top: 50px;
+    position: relative;
+}
+
+.banner_right {
+    width: 100%;
+}
+
+.banner_right img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.banner_name {
+    font-family: Oswald, sans-serif;
+    font-weight: 900;
+    font-size: 30px;
+    margin: 0;
+    letter-spacing: 0.07rem;
+    text-transform: uppercase;
+}
+
+.banner_about_title {
+    font-family: Lato, sans-serif;
+}
+
+.banner_story {
+    font-family: Lato, sans-serif;
+    font-weight: 300;
+    line-height: 25px;
+}
+
+.banner_controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 25px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.banner_dot {
+    width: 10px;
+    height: 10px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    margin: 0 3px;
+    /* background-color: #fff; */
+}
+
+.banner_dot:hover {
+    border-color: rgb(1, 161, 231);;
+}
+
+.banner_pause {
+    margin: 0 8px;
+}
+
+.banner_arrows {
+    cursor: pointer;
+}
+
+.banner_arrows:hover {
+    color: rgb(1, 161, 231);
+}

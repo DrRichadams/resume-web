@@ -1,0 +1,9 @@
+.main_nav_container {
+    padding: 10px 20px;
+}
+
+.brand h1 {
+    font-family: Lato;
+    font-weight: 900;
+    font-size: 18px;
+}
