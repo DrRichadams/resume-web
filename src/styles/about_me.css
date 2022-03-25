@@ -1,0 +1,59 @@
+.about_me_container {
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+}
+
+.am_right {
+    border-radius: 8px;
+    overflow: hidden;
+    position: relative;
+}
+
+.am_right::after {
+    content: "George | Software Developer";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(blue, green);
+    opacity: .3;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    color: #fff;
+    font-size: 30px;
+    padding: 20px;
+}
+
+.am_right img {
+    width: 100%;
+}
+
+.aml_top {
+    font-family: Lato, sans-serif;
+    font-weight: 300;
+    border-top: 5px solid #0143eb;
+    padding: 20px 0;
+}
+
+.aml_top p span {
+    font-weight: 900;
+}
+
+.aml_bottom_title {
+    font-family: Lato, sans-serif;
+    font-weight: 900;
+    margin-bottom: 15px;
+    font-size: 25px;
+}
+
+.aml_bottom div {
+    margin-bottom: 12px;
+    padding: 8px;
+    font-family: Lato, sans-serif;
+    font-weight: 600;
+    border-left: 5px solid #0143eb;
+}

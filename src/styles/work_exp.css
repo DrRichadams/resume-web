@@ -1,0 +1,47 @@
+.work_experience {
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+}
+
+.wexp_box {
+    box-shadow: 6px 0 24px #01050f69;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.wexp_top_img img {
+    width: 100%;
+}
+
+.wexp_details_box {
+    padding: 12px;
+}
+
+.wexp_ref_box {
+    background-color: rgb(198, 238, 253);
+    margin-top: 8px;
+    margin-bottom: 8px;
+    padding: 6px;
+    border-radius: 6px;
+}
+
+.wexp_box_title {
+    font-family: Lato, sans-serif;
+    font-weight: 900;
+    margin-bottom: 6px;
+}
+
+.wexp_box_story {
+    font-family: Lato, sans-serif;
+    font-weight: 300;
+}
+
+.wexp_ref_box p {
+    font-family: Lato, sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    margin-bottom: 4px;
+    color: #01050f;
+}

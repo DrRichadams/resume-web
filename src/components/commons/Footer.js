@@ -4,7 +4,8 @@ import "../../styles/footer.css"
 const Footer = () => {
     return (
         <div className="footer_container">
-            Footer
+            <p>eCV | Online curriculum Vitae</p>
+            <p>Powered by Republic Arts</p>
         </div>
     )
 }

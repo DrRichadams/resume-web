@@ -3,6 +3,9 @@ import "../styles/landing_page.css"
 import { v4 as uuidv4 } from "uuid"
 import { FiChevronLeft, FiChevronRight, FiPauseCircle } from "react-icons/fi"
 import Education from "./features/landing_page/Education"
+import AboutMe from "./features/landing_page/AboutMe"
+import WorkExperience from "./features/landing_page/WorkExperience"
+import SocialLinks from "./features/landing_page/SocialLinks"
 
 const LandingPage = () => {
     const [ current, setCurrent ] = useState(1)
@@ -101,8 +104,14 @@ const LandingPage = () => {
                     alt="" />
                 </div>
             </div>
+            <div className="education_title">About Me | Software Developer</div>
+            <AboutMe />
             <div className="education_title">Education</div>
             <Education />
+            <div className="education_title">Work Experience</div>
+            <WorkExperience />
+            <div className="education_title">Social Media Links</div>
+            <SocialLinks />
         </>
     )
 }

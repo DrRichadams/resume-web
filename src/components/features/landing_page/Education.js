@@ -45,7 +45,8 @@ const Education = () => {
                             style={{
                                 borderColor: index + 1 === selected ? "#01050f": "transparent",
                                 opacity: index + 1 === selected ? 1 : 0.45
-                            }}>
+                            }}
+                            onClick={() => setSelected(index + 1)}>
                             <h3 className="edu_school_name">{item.school_name}</h3>
                             <p className="edu_period">{`${item.fromYear} - ${item.toYear}`}</p>
                         </div>
