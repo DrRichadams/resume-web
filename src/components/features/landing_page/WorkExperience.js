@@ -12,7 +12,7 @@ const WorkExperience = () => {
                 { id: uuidv4(), name: "Johhanes", cell: "+264 813 694 757", email: "JackMa@gmail.com" },
             ]
         },
-        {
+        { 
             id: uuidv4(), place: "Old Mutual",
             story: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit rem labore incidunt, sunt ad officia, illo magni est, voluptatum optio nulla minus at. Inventore reprehenderit culpa facere neque quisquam ea animi, impedit voluptatibus voluptate ipsum beatae quis porro libero placeat, excepturi odit minima ab consequatur, blanditiis repellat? Blanditiis, cupiditate consectetur!",
             references: [ 

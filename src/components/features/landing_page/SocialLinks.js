@@ -7,7 +7,7 @@ const SocialLinks = () => {
     const [ links, setLinks ] = useState([
         {
             id: uuidv4(),
-            social_name: "instagram",
+            social_name: "instagram", 
             username: "@georgewash",
             story: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Delectus maiores tempora error vero repellat sequi facilis! Pariatur modi repellendus accusantium quis, nobis vero! Blanditiis pariatur at quibusdam facilis praesentium laboriosam nisi debitis asperiores repellat laudantium! Ipsum dolores ratione vitae atque maiores necessitatibus soluta, doloribus placeat natus. Eveniet, mollitia. Delectus, expedita!",
         },
@@ -62,7 +62,7 @@ const SocialLinks = () => {
                             <p className="soc_username">{item.username}</p>
                         </div>
                     ))
-                }
+                } 
             </div>
             <div className="soc_right_box">
                 {

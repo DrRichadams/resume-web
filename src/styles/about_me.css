@@ -12,7 +12,7 @@
 }
 
 .am_right::after {
-    content: "George | Software Developer";
+    content: "Maria | Software Developer";
     position: absolute;
     top: 0;
     left: 0;

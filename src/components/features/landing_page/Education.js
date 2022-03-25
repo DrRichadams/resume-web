@@ -5,25 +5,25 @@ import { v4 as uuidv4 } from "uuid"
 const Education = () => {
     const [ selected, setSelected ] = useState(1)
     const [ eduData, setEduData ] = useState([
-        {
+        { 
             id: uuidv4(),
-            school_name: "Amazing Kids",
-            fromYear: "2001",
-            toYear: "2008",
-            details: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus esse vitae eum sit. Omnis eius corrupti dicta, dolores quis dignissimos et! Ab accusamus dolore reiciendis labore dolor molestias eum voluptatem, eligendi nulla dolorem et culpa eos atque fuga, repellat quos minus laborum quibusdam natus rem assumenda. Quam doloribus ad reiciendis.",
-        },
-        {
-            id: uuidv4(),
-            school_name: "Windhoek High",
-            fromYear: "2009",
+            school_name: "Nakambuda Primary school",
+            fromYear: "2008",
             toYear: "2014",
             details: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus esse vitae eum sit. Omnis eius corrupti dicta, dolores quis dignissimos et! Ab accusamus dolore reiciendis labore dolor molestias eum voluptatem, eligendi nulla dolorem et culpa eos atque fuga, repellat quos minus laborum quibusdam natus rem assumenda. Quam doloribus ad reiciendis.",
         },
         {
             id: uuidv4(),
-            school_name: "Polytechnic of Namibia",
-            fromYear: "2014",
-            toYear: "2018",
+            school_name: "Rukonga Vision School",
+            fromYear: "2015",
+            toYear: "2019",
+            details: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus esse vitae eum sit. Omnis eius corrupti dicta, dolores quis dignissimos et! Ab accusamus dolore reiciendis labore dolor molestias eum voluptatem, eligendi nulla dolorem et culpa eos atque fuga, repellat quos minus laborum quibusdam natus rem assumenda. Quam doloribus ad reiciendis.",
+        },
+        {
+            id: uuidv4(),
+            school_name: " Namibia University of Science  and Technology ",
+            fromYear: "2020",
+            toYear: "2022",
             details: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus esse vitae eum sit. Omnis eius corrupti dicta, dolores quis dignissimos et! Ab accusamus dolore reiciendis labore dolor molestias eum voluptatem, eligendi nulla dolorem et culpa eos atque fuga, repellat quos minus laborum quibusdam natus rem assumenda. Quam doloribus ad reiciendis.",
         },
         {
