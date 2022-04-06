@@ -46,6 +46,11 @@ const LandingPage = () => {
     return (
         <>
             <div className="landind_page_container">
+            <div className="banner_right"> 
+                    <img 
+                    src={process.env.PUBLIC_URL + "resources/profile1.jpg"} 
+                    alt="" />
+                </div> 
                 <div className="banner_left">
                     <h3 className="banner_name">Maria T Matheus</h3>
                     <h4 className="banner_about_title">About me | Software developer</h4>
@@ -81,11 +86,7 @@ const LandingPage = () => {
                             onClick={() => forwardMove()} />
                     </div> */}
                 </div>
-                <div className="banner_right"> 
-                    <img 
-                    src={process.env.PUBLIC_URL + "resources/profile1.jpg"} 
-                    alt="" />
-                </div> 
+                
             </div>
             <div className="education_title">About Me | Software Developer</div>
             <AboutMe />

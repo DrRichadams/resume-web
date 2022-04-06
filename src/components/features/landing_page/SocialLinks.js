@@ -5,7 +5,7 @@ import { FiPlus, FiInstagram, FiFacebook, FiTwitter, FiLinkedin } from "react-ic
 
 const SocialLinks = () => {
     const [ links, setLinks ] = useState([
-        {
+        { 
             id: uuidv4(),
             social_name: "instagram", 
             username: "@tulinelao",

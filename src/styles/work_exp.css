@@ -1,8 +1,8 @@
 .work_experience {
-    padding: 20px;
+    /* padding: 20px; */
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 30px;
+    grid-template-columns: 1fr;
+    /* gap: 30px; */
 }
 
 .wexp_box {
@@ -41,7 +41,7 @@
 .wexp_ref_box p {
     font-family: Lato, sans-serif;
     font-weight: 600;
-    font-size: 15px;
+    font-size: 15px; 
     margin-bottom: 4px;
     color: #01050f;
 }

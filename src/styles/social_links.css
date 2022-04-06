@@ -5,6 +5,15 @@
     gap: 30px;
 }
 
+@media (max-width: 600px) {
+    .social_links_container {
+        padding: 0;
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+}
+
 .soc_link_box {
     /* border: 1px solid #01050f; */
     background-color: #fff;
@@ -74,7 +83,7 @@
     from {
         height: 360px;
     }
-    to {
+    to { 
         height: 0px;
     }
 }

@@ -2,7 +2,7 @@ import React, { useState } from "react"
 import "../../../styles/work_exp.css"
 import { v4 as uuidv4 } from "uuid"
 
-const WorkExperience = () => {
+const WorkExperience = () => { 
     const [ works, setWorks ] = useState([
         {
             id: uuidv4(), place: "Nedbank Namibia",

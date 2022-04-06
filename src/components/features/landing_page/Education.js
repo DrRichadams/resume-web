@@ -34,6 +34,8 @@ const Education = () => {
         },
         
     ])
+
+    const [mobileSchools] = useState(["Nust", "Rukonga", "Nakamba"])
     
     return(
         <div className="education_container">
@@ -50,6 +52,19 @@ const Education = () => {
                             onClick={() => setSelected(index + 1)}>
                             <h3 className="edu_school_name">{item.school_name}</h3>
                             <p className="edu_period">{`${item.fromYear} - ${item.toYear}`}</p>
+                        </div>
+                    ))
+                }
+            </div>
+            <div className="mobile_schools_nav">
+                {
+                    mobileSchools.map((item, index) => (
+                        <div 
+                            key={item} 
+                            className="mobile_schools_box"
+                            style={{opacity: index + 1 === selected ? 1:0.45}}
+                            onClick={() => setSelected(index + 1)}>
+                            {item}
                         </div>
                     ))
                 }
