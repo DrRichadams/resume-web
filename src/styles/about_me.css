@@ -5,6 +5,24 @@
     gap: 30px;
 }
 
+@media (max-width: 900px) {
+    .about_me_container {
+        padding: 20px;
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+}
+@media (max-width: 600px) {
+    .about_me_container {
+        padding: 0;
+    }
+}
+@media (max-width: 590px) {
+    .about_me_container {
+        padding: 0;
+    }
+}
+ 
 .am_right {
     border-radius: 8px;
     overflow: hidden;

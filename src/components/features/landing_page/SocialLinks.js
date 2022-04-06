@@ -8,26 +8,14 @@ const SocialLinks = () => {
         {
             id: uuidv4(),
             social_name: "instagram", 
-            username: "@georgewash",
-            story: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Delectus maiores tempora error vero repellat sequi facilis! Pariatur modi repellendus accusantium quis, nobis vero! Blanditiis pariatur at quibusdam facilis praesentium laboriosam nisi debitis asperiores repellat laudantium! Ipsum dolores ratione vitae atque maiores necessitatibus soluta, doloribus placeat natus. Eveniet, mollitia. Delectus, expedita!",
-        },
-        {
-            id: uuidv4(),
-            social_name: "facebook",
-            username: "@georgewash",
-            story: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Delectus maiores tempora error vero repellat sequi facilis! Pariatur modi repellendus accusantium quis, nobis vero! Blanditiis pariatur at quibusdam facilis praesentium laboriosam nisi debitis asperiores repellat laudantium! Ipsum dolores ratione vitae atque maiores necessitatibus soluta, doloribus placeat natus. Eveniet, mollitia. Delectus, expedita!",
-        },
-        {
-            id: uuidv4(),
-            social_name: "twitter",
-            username: "@georgewash",
-            story: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Delectus maiores tempora error vero repellat sequi facilis! Pariatur modi repellendus accusantium quis, nobis vero! Blanditiis pariatur at quibusdam facilis praesentium laboriosam nisi debitis asperiores repellat laudantium! Ipsum dolores ratione vitae atque maiores necessitatibus soluta, doloribus placeat natus. Eveniet, mollitia. Delectus, expedita!",
+            username: "@tulinelao",
+            story: "@tulinelao",
         },
         {
             id: uuidv4(),
             social_name: "linkedIn",
-            username: "@georgewash",
-            story: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Delectus maiores tempora error vero repellat sequi facilis! Pariatur modi repellendus accusantium quis, nobis vero! Blanditiis pariatur at quibusdam facilis praesentium laboriosam nisi debitis asperiores repellat laudantium! Ipsum dolores ratione vitae atque maiores necessitatibus soluta, doloribus placeat natus. Eveniet, mollitia. Delectus, expedita!",
+            username: "Maria T Matheus",
+            story: "Maria T Matheus",
         },
     ])
 

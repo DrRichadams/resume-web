@@ -13,27 +13,10 @@ const LandingPage = () => {
         {
             id: uuidv4(),
             title: "Annual General Meeting",
-            story: "Ipsa perferendis similique rerum. Incidunt optio numquam aliasLorem ipsum dolor, sit amet consectetur adipisicing elit.  vel, quibusdam dignissimos id ab modi rerum. Quam exercitationem dolorem officiis optio inventore error magni hic voluptatibus odit! Perspiciatis fugit animi earum quidem veritatis libero aut ad error? Alias debitis aspernatur suscipit voluptatibus architecto.",
-        },
-        {
-            id: uuidv4(),
-            title: "Annual General Meeting",
-            story: " Optio numquam alias vel, quibusdam dignissimos id ab modi rerum. Quam exercitationem Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa perferendis similique rerum. Incidunt dolorem officiis optio inventore error magni hic voluptatibus odit! Perspiciatis fugit animi earum quidem veritatis libero aut ad error? Alias debitis aspernatur suscipit voluptatibus architecto.",
-        },
-        {
-            id: uuidv4(),
-            title: "Annual General Meeting",
-            story: "Dolor, sit amet consectetur adipisicing elit. IpsaLorem ipsum perferendis similique rerum. Incidunt optio numquam alias vel, quibusdam dignissimos id ab modi rerum. Quam exercitationem dolorem officiis optio inventore error magni hic voluptatibus odit! Perspiciatis fugit animi earum quidem veritatis libero aut ad error? Alias debitis aspernatur suscipit voluptatibus architecto.",
-        },
-        {
-            id: uuidv4(),
-            title: "Annual General Meeting",
-            story: "Adipisicing elit. Ipsa perferendis similique rerum Lorem ipsum dolor, sit amet consectetur . Incidunt optio numquam alias vel, quibusdam dignissimos id ab modi rerum. Quam exercitationem dolorem officiis optio inventore error magni hic voluptatibus odit! Perspiciatis fugit animi earum quidem veritatis libero aut ad error? Alias debitis aspernatur suscipit voluptatibus architecto.",
-        },
-        {
-            id: uuidv4(),
-            title: "Annual General Meeting",
-            story: "Sit amet consectetur adipisicing elit. Ipsa Lorem ipsum dolor,  perferendis similique rerum. Incidunt optio numquam alias vel, quibusdam dignissimos id ab modi rerum. Quam exercitationem dolorem officiis optio inventore error magni hic voluptatibus odit! Perspiciatis fugit animi earum quidem veritatis libero aut ad error? Alias debitis aspernatur suscipit voluptatibus architecto.",
+            story: `I am an innovative,commited and ambitious young lady interested in meeting new people and  places.
+            I am deeply passionate about technology and enviromental welfare. I posses great leadership skills,
+            hence a team player and can work well uder pressure.
+            My ultimate goal in life is to be part of a team that brings about change and development to this country in terms of technology.`,
         },
     ])
 
@@ -64,7 +47,7 @@ const LandingPage = () => {
         <>
             <div className="landind_page_container">
                 <div className="banner_left">
-                    <h3 className="banner_name">George Washington</h3>
+                    <h3 className="banner_name">Maria T Matheus</h3>
                     <h4 className="banner_about_title">About me | Software developer</h4>
                     {
                         bannerData.map((item, index) => (
@@ -76,7 +59,7 @@ const LandingPage = () => {
                             </p>
                         ))
                     }
-                    <div className="banner_controls">
+                    {/* <div className="banner_controls">
                         <FiChevronLeft 
                             size={35} 
                             className="banner_arrows"
@@ -96,13 +79,13 @@ const LandingPage = () => {
                             size={35} 
                             className="banner_arrows"
                             onClick={() => forwardMove()} />
-                    </div>
+                    </div> */}
                 </div>
                 <div className="banner_right"> 
                     <img 
                     src={process.env.PUBLIC_URL + "resources/profile1.jpg"} 
                     alt="" />
-                </div>
+                </div> 
             </div>
             <div className="education_title">About Me | Software Developer</div>
             <AboutMe />
