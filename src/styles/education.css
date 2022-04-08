@@ -59,7 +59,7 @@
 
 .mobile_schools_nav {
     /* background-color: red; */
-    display: flex;
+    display: none;
     align-items: center;
     justify-content: center;
     gap: 50px;
@@ -80,6 +80,9 @@
     }
     .left_controls {
         display: none;
+    }
+    .mobile_schools_nav {
+        display: flex;
     }
 }
 @media (max-width: 450px) {
